@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8448fa4fc4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Sportit</title>
 </head>
@@ -76,51 +77,60 @@
     <section class="section_best">
       <h2>Best of the month</h2>
       
-      <article>
+      <article  class="cajaBest">
+        <div class="imgZ">
+          <img src="./img/avatar-sanyo.png" alt="Perfil Deportista">
+        </div>      
         
-        <img src="./img/avatar-sanyo.png" alt="Perfil Deportista">
         <div class="cajaDiv">
           <h4>Sanyo</h4>
           <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-        </div>
+        </div>    
+      </article>
+
+      <article  class="cajaBest">
+        <div class="imgZ">
+          <img src="./img/avatar.lebron.png" alt="Perfil Deportista">
+        </div>      
         
+        <div class="cajaDiv">
+          <h4>Lebron</h4>
+          <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+        </div>    
       </article>
-
-      <article>
-        <img src="./img/avatar.lebron.png" alt="Perfil Deportista">
-        <h4>Lebron</h4>
-        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+      
+      <article  class="cajaBest">
+        <div class="imgZ">
+          <img src="./img/avatar-navarro.png" alt="Perfil Deportista">
+        </div>      
+        
+        <div class="cajaDiv">
+          <h4>Navarro</h4>
+          <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+        </div>    
       </article>
-
-      <article>
-        <img src="./img/avatar-navarro.png" alt="Perfil Deportista">
-        <h4>Navarro</h4>
-        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-      </article>
-
-      <button>More</button>
-
+      <button class="moreButtom">More</button>
     </section>
 
-    <section>
+    <section class="getKnow">
       <h2>Get to know the best teams of the year</h2>
-      <button>Go for it</button>
+      <button class="goButton">Go for it</button>
     </section>
   </main>
 
   <footer>
-    <section>
+    <section class="sectionFooter">
       <div>
-        <img src="./img/logo.svg" alt="Logo Sportit">
+        <img src="./img/logoFooter.png" alt="Logo Sportit">
       </div>
-      <div>
+      <div class="divIcon">
         <i class="fa-brands fa-square-facebook"><a href=""></a> </i>
-        <i class="fa-brands fa-youtube"></i><a href=""></a> </i>
-        <i class="fa-brands fa-twitter"></i><a href=""></a> </i>
+        <i class="fa-brands fa-youtube"><a href=""></a></i>
+        <i class="fa-brands fa-twitter"><a href=""></a></i>
         <i class="fa-brands fa-pinterest"><a href=""></a></i>
         <i class="fa-brands fa-instagram"><a href=""></a></i>
       </div>
-      <div>
+      <div class="divFooter">
         <nav>
           <ul>
             <li><a href="">Home</a></li>
@@ -130,19 +140,20 @@
           </ul>
         </nav>
         <nav>
-          <li><a href="">Trainning</a></li>
+          <ul>
+            <li><a href="">Trainning</a></li>
             <li><a href="">Community</a></li>
             <li><a href="">Privacy Policy</a></li>
+          </ul>         
         </nav>
       </div>
-      <div>
-        <form action="" method="">
-          <input type="email" name="email" id="email" required>
+      
+        <form class="formulario" action="" method="">
+          <input type="email" name="email" id="email" placeholder="Update in your inbox..." required>
           <button>Go</button>
-        </form>
-      </div>
-
+        </form>    
     </section>
+    <p class="copyright">Copyright 2020. All Rights Reserved</p>
   </footer>
 </body>
 </html>
