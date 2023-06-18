@@ -99,6 +99,10 @@
   font-size: 1rem;
 }
 
+.etiquetaP{
+    display: none;
+}
+
 .section_numeros {
   display: flex;
   flex-direction: column;
@@ -277,10 +281,14 @@ footer {
   justify-content: space-around;
 }
 
-.divIcon {
+.divIcon2 {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+}
+
+.divIcon{
+    display: none;
 }
 
 .divFooter ul > li > a {
@@ -321,6 +329,7 @@ footer {
     border: none;
     color: #ffffff;
     font-weight: 500;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   }
 
   .burguer-menu {
@@ -352,23 +361,28 @@ footer {
   }
 
   .section_numeros{
+    background-color: #FAFAFA;
     flex-direction: row;
-    margin: 30px 100px;
+    margin: 0;
+    height: 428px;
+    align-items: center;
+    padding: 30px;
+    /* margin: 30px 100px; */
 }
 
   .section_numeros h4 {
-    background-color: white;
+    background-color: #FAFAFA;
     height: 43px;
     font-size: 1rem;
     padding: 11px;
     padding-left: 82px;
     border-radius: 50px 0 0 50px;
-    background-color: #FAFAFA;
+    
   }
 
-  /* .section_numeros>article:nth-child(3){
-      flex-wrap: wrap;
-  } */
+  .section_numeros>article:nth-child(3){
+      display:inline-flex;
+  }
 
   .section_numeros p {
       margin-left: 64px;
@@ -387,6 +401,14 @@ footer {
 
   .cajaPros h2 {
     width: 467px;
+  }
+
+  .cajaPros p {
+    display: none;
+  }
+  
+  section>.etiquetaP{
+      display: flex;
   }
 
   .cajaPros p {
@@ -430,6 +452,40 @@ footer {
 
  .sectionFooter{
      flex-direction: row;
+     height: 247px;
+     padding: 80px;
  }
+
+ .divIcon{
+     display: flex;
+ }
+
+ .sectionFooter>.divIcon2{
+     display: none;
+ }
+
+ .divFooter{
+   width: 40%;  
+ }
+
+ .divFooter2{
+    
+    width: 15%;
+    height: 150px;  
+  }
+
+  .divFooter2>img{
+      margin-top: 10px;
+      margin-bottom: 90px;
+  }
+
+  .copyright{
+      text-align: end;
+      padding-right: 215px;
+  }
+
+ 
+
+
 
 }
