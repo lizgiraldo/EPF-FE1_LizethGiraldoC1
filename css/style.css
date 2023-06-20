@@ -72,6 +72,7 @@
   border: none;
   color: #ffffff;
   font-weight: 500;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .cajaPros {
@@ -99,8 +100,8 @@
   font-size: 1rem;
 }
 
-.etiquetaP{
-    display: none;
+.etiquetaP {
+  display: none;
 }
 
 .section_numeros {
@@ -200,11 +201,14 @@
   border-radius: 50px;
   color: #ffffff;
   margin: 45px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-.moreButtom:hover, .BotonContact:hover, .BotonContact2:hover{
-    background-color: #8B48BFB2;
-    opacity: 70%;
+.moreButtom:hover,
+.BotonContact:hover,
+.BotonContact2:hover {
+  background-color: #8b48bfb2;
+  opacity: 70%;
 }
 
 .getKnow {
@@ -270,10 +274,10 @@ footer {
   height: 42px;
   color: #ffffff;
 }
- .formulario>button:hover{
-    background-color: #8B48BFB2;
-    opacity: 70%;
- }
+.formulario > button:hover {
+  background-color: #8b48bfb2;
+  opacity: 70%;
+}
 
 .divFooter {
   width: 100%;
@@ -287,8 +291,8 @@ footer {
   justify-content: space-evenly;
 }
 
-.divIcon{
-    display: none;
+.divIcon {
+  display: none;
 }
 
 .divFooter ul > li > a {
@@ -308,16 +312,13 @@ footer {
   height: 30px;
 }
 
-
-
-
-
 @media (min-width: 481px) {
   /* .movilHeader{
         display: flex;
     } */
 
-  .menu, .BotonContact {
+  .menu,
+  .BotonContact {
     display: inline-block;
   }
 
@@ -336,8 +337,8 @@ footer {
     display: none;
   }
 
-  .movilHeader{
-      align-items: center;
+  .movilHeader {
+    align-items: center;
   }
 
   .menu ul {
@@ -360,32 +361,31 @@ footer {
     margin: 30px 90px;
   }
 
-  .section_numeros{
-    background-color: #FAFAFA;
+  .section_numeros {
+    background-color: #fafafa;
     flex-direction: row;
     margin: 0;
     height: 428px;
     align-items: center;
     padding: 30px;
     /* margin: 30px 100px; */
-}
+  }
 
   .section_numeros h4 {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     height: 43px;
     font-size: 1rem;
     padding: 11px;
     padding-left: 82px;
     border-radius: 50px 0 0 50px;
-    
   }
 
-  .section_numeros>article:nth-child(3){
-      display:inline-flex;
+  .section_numeros > article:nth-child(3) {
+    display: inline-flex;
   }
 
   .section_numeros p {
-      margin-left: 64px;
+    margin-left: 64px;
   }
 
   .cajaPros {
@@ -406,18 +406,18 @@ footer {
   .cajaPros p {
     display: none;
   }
-  
-  section>.etiquetaP{
-      display: flex;
+
+  section > .etiquetaP {
+    display: flex;
   }
 
   .cajaPros p {
     width: 450px;
   }
 
-  .section_best h2{
+  .section_best h2 {
     margin-top: 100px;
-}
+  }
 
   .cajaBest:nth-child(2) {
     display: inline-block;
@@ -426,12 +426,12 @@ footer {
   .cajaBest:nth-child(3) {
     display: inline-block;
   }
-  
+
   .cajaBest:nth-child(4) {
     display: inline-block;
   }
 
-  .getKnow{
+  .getKnow {
     margin-top: 100px;
     height: 224px;
     flex-direction: row;
@@ -439,53 +439,52 @@ footer {
     justify-content: space-around;
   }
 
-  .getKnow h2{
-      width: 432px;
-      height: 96px;
-      text-align: left;
+  .getKnow h2 {
+    width: 432px;
+    height: 96px;
+    text-align: left;
   }
 
-  .goButton{
-      background-color:#ffffff ;
-      color: #8b48bf;
+  .goButton {
+    background-color: #ffffff;
+    color: #8b48bf;
   }
 
- .sectionFooter{
-     flex-direction: row;
-     height: 247px;
-     padding: 80px;
- }
+  .goButton:hover {
+    background-color: #90e0eb;
+    color: white;
+  }
 
- .divIcon{
-     display: flex;
- }
+  .sectionFooter {
+    flex-direction: row;
+    height: 247px;
+    padding: 80px;
+  }
 
- .sectionFooter>.divIcon2{
-     display: none;
- }
+  .divIcon {
+    display: flex;
+  }
 
- .divFooter{
-   width: 40%;  
- }
+  .sectionFooter > .divIcon2 {
+    display: none;
+  }
 
- .divFooter2{
-    
+  .divFooter {
+    width: 40%;
+  }
+
+  .divFooter2 {
     width: 15%;
-    height: 150px;  
+    height: 150px;
   }
 
-  .divFooter2>img{
-      margin-top: 10px;
-      margin-bottom: 90px;
+  .divFooter2 > img {
+    margin-top: 10px;
+    margin-bottom: 90px;
   }
 
-  .copyright{
-      text-align: end;
-      padding-right: 215px;
+  .copyright {
+    text-align: end;
+    padding-right: 215px;
   }
-
- 
-
-
-
 }
